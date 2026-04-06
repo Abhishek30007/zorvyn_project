@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/src/index.js"
+    },
+    {
+      "source": "/api-docs",
+      "destination": "/src/index.js"
+    },
+    {
+      "source": "/api-docs/(.*)",
+      "destination": "/src/index.js"
+    }
+  ]
+}
